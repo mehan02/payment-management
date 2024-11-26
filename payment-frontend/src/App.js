@@ -5,7 +5,7 @@ import "./App.css";
 function App() {
   const [paymentMethods, setPaymentMethods] = useState([]);
   const [billingInfo, setBillingInfo] = useState({
-    id: null, // Added to track the ID for editing
+    id: null,  
     cardNumber: "",
     expiryDate: "",
     cvv: "",
@@ -17,7 +17,7 @@ function App() {
   const [isEditing, setIsEditing] = useState(false); // Track if we are editing an existing card
   const [userId, setUserId] = useState("testUser123"); // Default user ID for testing
 
-  // Fetch payment methods when the component mounts or userId changes
+  // Fetch payment methods when userId changes
   useEffect(() => {
     fetchPayments();
   }, [userId]);

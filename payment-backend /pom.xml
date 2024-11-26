@@ -52,7 +52,7 @@
      <dependency>
         <groupId>org.projectlombok</groupId>
         <artifactId>lombok</artifactId>
-        <version>1.18.24</version> <!-- Use the latest version -->
+        <version>1.18.30</version>  
         <scope>provided</scope>
     </dependency>
 
@@ -81,7 +81,7 @@
         <plugin>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-maven-plugin</artifactId>
-            <version>3.1.0</version> <!-- Use the appropriate version for your Spring Boot version -->
+            <version>3.1.0</version>  
         </plugin>
     </plugins>
 </build>
